@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working-Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="heading">Suraj's Working DashBoard</h1>
+    <form id="h-container">
+      <input type="text" id="input-box" placeholder="  Add your text..." />
+      <button id="btn" onclick="onSubmit()">Add work</button>
+    </form>
+
+    <div id="main-container">
+      <div class="box">
+        <h2>Backlogs</h2>
+      </div>
+
+      <div class="box" id="todo-lane">
+        <h2>Work List</h2>
+        <!-- <p class="task" draggable="true">Get groceries</p>
+        <p class="task" draggable="true">Feed the dogs</p>
+        <p class="task" draggable="true">Mow the lawn</p> -->
+      </div>
+
+      <div class="box">
+        <h2>In Progress</h2>
+        <!-- <p class="task" draggable="true">Binge 80 hours of Game of Thrones</p> -->
+      </div>
+
+      <div class="box">
+        <h2>Finished</h2>
+        <!-- <p class="task" draggable="true">
+          Watch video of a man raising a grocery store lobster as a pet and an
+          allisisan dog as a pet
+        </p> -->
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./to-do.js"></script>
+  </body>
+</html>

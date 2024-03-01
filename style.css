@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+}
+.heading {
+  color: beige;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+#h-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  gap: 5px;
+}
+
+#input-box {
+  background-color: transparent;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid gray;
+  outline: none;
+}
+
+#btn {
+  background-color: rgba(255, 166, 0, 0.383);
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+  height: 44px;
+  outline: none;
+}
+
+h2 {
+  color: beige;
+  text-align: center;
+  position: relative;
+  top: 17px;
+ 
+}
+
+.btn-con{
+  display: flex;
+}
+
+#main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+}
+
+.box {
+  height: 400px;
+  width: 350px;
+  border: 2px dashed white;
+  margin: 30px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.task {
+  color: rgb(239, 232, 232);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  font-size: 1rem;
+  background-color: rgba(12, 11, 11, 0.282);
+  margin: 20px;
+  width: 80%;
+  padding: 14px;
+  border-radius: 5px;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.material-icons{
+  background: transparent;
+  gap:10px;
+  color: rgb(138, 91, 135);
+  
+}
+
+
+.is-dragging {
+  scale: 1.05;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background: rgb(50, 50, 50);
+  color: white;
+}
